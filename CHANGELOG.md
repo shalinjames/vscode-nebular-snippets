@@ -1,7 +1,7 @@
-# Change Log
-All notable changes to the "vscode-nebular-snippets" extension will be documented in this file.
+## Change Log for Nebular Snippets
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1] 2017-08-11
 
-## [Unreleased]
-- Initial release
+### Added
+
+- Snippet for the Nebular Button, Checkbox
