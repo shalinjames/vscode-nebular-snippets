@@ -1,24 +1,44 @@
 {
-  "NB_Button": {
+  "Nebular button": {
     "prefix": "nb-button",
-    "body": ["<button nbButton></button>"]
+    "body": ["<button nbButton>${1:text}</button>"]
   },
-  "NB_Checkbox_Without_Status": {
+  "Nebular primary button": {
+    "prefix": "nb-b-primary",
+    "body": ["<button nbButton status=\"primary\">${1:text}</button>"]
+  },
+  "Nebular success button": {
+    "prefix": "nb-b-success",
+    "body": ["<button nbButton status=\"success\">${1:text}</button>"]
+  },
+  "Nebular info button": {
+    "prefix": "nb-b-info",
+    "body": ["<button nbButton status=\"info\">${1:text}</button>"]
+  },
+  "Nebular warning button": {
+    "prefix": "nb-b-warning",
+    "body": ["<button nbButton status=\"warning\">${1:text}</button>"]
+  },
+  "Nebular danger button": {
+    "prefix": "nb-b-danger",
+    "body": ["<button nbButton status=\"danger\">${1:text}</button>"]
+  },
+  "Nebular checkbox": {
     "prefix": "nb-checkbox",
     "body": ["<nb-checkbox>${1:text}</nb-checkbox>"]
   },
-  "NB_Checkbox_With_Status": {
+  "Nebular Checkbox With Status": {
     "prefix": "nb-checkbox-status",
     "body": ["<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>"]
   },
-  "NB_Checkbox_2": {
+  "Nebular Checkbox 2": {
     "prefix": "nb-checkbox-2",
     "body": [
       "<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>",
       "<nb-checkbox status=\"${4:danger}\">${3:Danger}</nb-checkbox>"
     ]
   },
-  "NB_Checkbox_3": {
+  "Nebular Checkbox 3": {
     "prefix": "nb-checkbox-3",
     "body": [
       "<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>",
