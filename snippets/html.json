@@ -9,24 +9,32 @@
   },
   "Nebular button colors": {
     "prefix": "nb-button-color",
-    "body": ["<button nbButton status=\"primary\">${1:text}</button>"]
+    "body": [
+      "<button nbButton status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
+    ]
   },
   "Nebular button size": {
     "prefix": "nb-button-size",
-    "body": ["<button nbButton size=\"medium\">x-small</button>"]
+    "body": [
+      "<button nbButton size=\"${1|xsmall,small,medium,large|}\">${2:text}</button>"
+    ]
   },
   "Nebular button with outline": {
     "prefix": "nb-button-outline",
-    "body": ["<button nbButton outline status=\"primary\">${1:text}</button>"]
+    "body": [
+      "<button nbButton outline status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
+    ]
   },
   "Nebular hero button": {
     "prefix": "nb-button-hero",
-    "body": ["<button nbButton hero status=\"primary\">${1:text}</button>"]
+    "body": [
+      "<button nbButton hero status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
+    ]
   },
   "Nebular button shape": {
     "prefix": "nb-button-shape",
     "body": [
-      "<button nbButton shape=\"${1:semi-round}\" status=\"primary\">${2:text}</button>"
+      "<button nbButton shape=\"${1|semi-round,round,rectangle|}\" status=\"${2|primary,success,info,warning,danger|}\">${3:text}</button>"
     ]
   },
   "Nebular checkbox": {
