@@ -4,7 +4,7 @@
 
 ### Added
 
-- Snippet for the Nebular Button with all its status options
+- Snippet for the Nebular Button with all available properties
 
 ## [0.0.1] 2017-08-11
 

@@ -3,25 +3,31 @@
     "prefix": "nb-button",
     "body": ["<button nbButton>${1:text}</button>"]
   },
-  "Nebular primary button": {
-    "prefix": "nb-b-primary",
+  "Nebular button disabled": {
+    "prefix": "nb-button-disabled",
+    "body": ["<button nbButton disabled>${1:text}</button>"]
+  },
+  "Nebular button colors": {
+    "prefix": "nb-button-color",
     "body": ["<button nbButton status=\"primary\">${1:text}</button>"]
   },
-  "Nebular success button": {
-    "prefix": "nb-b-success",
-    "body": ["<button nbButton status=\"success\">${1:text}</button>"]
+  "Nebular button size": {
+    "prefix": "nb-button-size",
+    "body": ["<button nbButton size=\"medium\">x-small</button>"]
   },
-  "Nebular info button": {
-    "prefix": "nb-b-info",
-    "body": ["<button nbButton status=\"info\">${1:text}</button>"]
+  "Nebular button with outline": {
+    "prefix": "nb-button-outline",
+    "body": ["<button nbButton outline status=\"primary\">${1:text}</button>"]
   },
-  "Nebular warning button": {
-    "prefix": "nb-b-warning",
-    "body": ["<button nbButton status=\"warning\">${1:text}</button>"]
+  "Nebular hero button": {
+    "prefix": "nb-button-hero",
+    "body": ["<button nbButton hero status=\"primary\">${1:text}</button>"]
   },
-  "Nebular danger button": {
-    "prefix": "nb-b-danger",
-    "body": ["<button nbButton status=\"danger\">${1:text}</button>"]
+  "Nebular button shape": {
+    "prefix": "nb-button-shape",
+    "body": [
+      "<button nbButton shape=\"${1:semi-round}\" status=\"primary\">${2:text}</button>"
+    ]
   },
   "Nebular checkbox": {
     "prefix": "nb-checkbox",
