@@ -6,12 +6,18 @@ This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.
 
 ## HTML Snippets 
 
-| Snippet            | Description                    |
-| ------------------ | ------------------------------ |
-| nb-button          | Plain button                   |
-| nb-button-disabled | Button with disabled attribute |
-| nb-button-color    | Button with color attribute    |
-| nb-button-size     | Medium sized Button            |
-| nb-button-outline  | Button with outline            |
-| nb-button-hero     | Hero styled button             |
-| nb-button-shape    | Button with shape attribute    |
+| Snippet            | Description                                           |
+| ------------------ | ----------------------------------------------------- |
+| nb-layout          | NbLayoutComponent with header, content, footer        |
+| nb-sidebar         | NbSidebarComponent basic                              |
+| nb-menu            | NbMenuComponent basic                                 |
+| nb-card            | NbCardComponent basic                                 |
+| nb-flip-card       | NbFlipCardComponent basic with front and back cards   |
+| nb-reveal-card     | NbRevealCardComponent basic with front and back cards |
+| nb-button          | Plain button                                          |
+| nb-button-disabled | Button with disabled attribute                        |
+| nb-button-color    | Button with color attribute                           |
+| nb-button-size     | Medium sized Button                                   |
+| nb-button-outline  | Button with outline                                   |
+| nb-button-hero     | Hero styled button                                    |
+| nb-button-shape    | Button with shape attribute                           |

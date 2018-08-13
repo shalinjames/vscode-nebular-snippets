@@ -1,63 +1,110 @@
 {
-  "Nebular button": {
+  "NbLayoutComponent basic": {
+    "prefix": "nb-layout",
+    "body": [
+      "<nb-layout>",
+      "\t<nb-layout-header>${1:header}</nb-layout-header>",
+      "\t<nb-layout-column>${2:content}</nb-layout-column>",
+      "\t<nb-layout-footer>${3:footer}</nb-layout-footer>",
+      "</nb-layout>"
+    ]
+  },
+  "NbSidebarComponent basic": {
+    "prefix": "nb-sidebar",
+    "body": ["<nb-sidebar>${1:Sidebar Content}</nb-sidebar>"]
+  },
+  "NbMenuComponent basic": {
+    "prefix": "nb-menu",
+    "body": ["<nb-menu [items]=\"${1:items}\"></nb-menu>"]
+  },
+  "NbCardComponent basic": {
+    "prefix": "nb-card",
+    "body": [
+      "<nb-card>",
+      "\t<nb-card-body>",
+      "\t\t${1: Card}",
+      "\t</nb-card-body>",
+      "</nb-card>"
+    ]
+  },
+  "NbFlipCardComponent basic": {
+    "prefix": "nb-flip-card",
+    "body": [
+      "<nb-flip-card>",
+      "\t<nb-card-front>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${1:Front card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-front>",
+      "\t<nb-card-back>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${2:Back card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-back>",
+      "</nb-flip-card>"
+    ]
+  },
+  "NbRevealCardComponent basic": {
+    "prefix": "nb-reveal-card",
+    "body": [
+      "<nb-reveal-card>",
+      "\t<nb-card-front>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${1:Front card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-front>",
+      "\t<nb-card-back>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${2:Back card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-back>",
+      "</nb-reveal-card>"
+    ]
+  },
+  "NbButtonComponent basic": {
     "prefix": "nb-button",
     "body": ["<button nbButton>${1:text}</button>"]
   },
-  "Nebular button disabled": {
+  "NbButtonComponent disabled": {
     "prefix": "nb-button-disabled",
     "body": ["<button nbButton disabled>${1:text}</button>"]
   },
-  "Nebular button colors": {
+  "NbButtonComponent colors": {
     "prefix": "nb-button-color",
     "body": [
       "<button nbButton status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
     ]
   },
-  "Nebular button size": {
+  "NbButtonComponent size": {
     "prefix": "nb-button-size",
     "body": [
       "<button nbButton size=\"${1|xsmall,small,medium,large|}\">${2:text}</button>"
     ]
   },
-  "Nebular button with outline": {
+  "NbButtonComponent with outline": {
     "prefix": "nb-button-outline",
     "body": [
       "<button nbButton outline status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
     ]
   },
-  "Nebular hero button": {
+  "NbButtonComponent hero button": {
     "prefix": "nb-button-hero",
     "body": [
       "<button nbButton hero status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
     ]
   },
-  "Nebular button shape": {
+  "NbButtonComponent shape": {
     "prefix": "nb-button-shape",
     "body": [
       "<button nbButton shape=\"${1|semi-round,round,rectangle|}\" status=\"${2|primary,success,info,warning,danger|}\">${3:text}</button>"
-    ]
-  },
-  "Nebular checkbox": {
-    "prefix": "nb-checkbox",
-    "body": ["<nb-checkbox>${1:text}</nb-checkbox>"]
-  },
-  "Nebular Checkbox With Status": {
-    "prefix": "nb-checkbox-status",
-    "body": ["<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>"]
-  },
-  "Nebular Checkbox 2": {
-    "prefix": "nb-checkbox-2",
-    "body": [
-      "<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>",
-      "<nb-checkbox status=\"${4:danger}\">${3:Danger}</nb-checkbox>"
-    ]
-  },
-  "Nebular Checkbox 3": {
-    "prefix": "nb-checkbox-3",
-    "body": [
-      "<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>",
-      "<nb-checkbox status=\"${4:warning}\">${3:Warning}</nb-checkbox>",
-      "<nb-checkbox status=\"${6:danger}\">${5:Danger}</nb-checkbox>"
     ]
   }
 }
