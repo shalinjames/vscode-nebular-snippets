@@ -1,63 +1,239 @@
 {
-  "Nebular button": {
+  "NbLayoutComponent basic": {
+    "prefix": "nb-layout",
+    "body": [
+      "<nb-layout>",
+      "\t<nb-layout-header>${1:header}</nb-layout-header>",
+      "\t<nb-layout-column>${2:content}</nb-layout-column>",
+      "\t<nb-layout-footer>${3:footer}</nb-layout-footer>",
+      "</nb-layout>"
+    ]
+  },
+  "NbSidebarComponent basic": {
+    "prefix": "nb-sidebar",
+    "body": ["<nb-sidebar>${1:Sidebar Content}</nb-sidebar>"]
+  },
+  "NbMenuComponent basic": {
+    "prefix": "nb-menu",
+    "body": ["<nb-menu [items]=\"${1:items}\"></nb-menu>"]
+  },
+  "NbCardComponent basic": {
+    "prefix": "nb-card",
+    "body": [
+      "<nb-card>",
+      "\t<nb-card-body>",
+      "\t\t${1: Card}",
+      "\t</nb-card-body>",
+      "</nb-card>"
+    ]
+  },
+  "NbFlipCardComponent basic": {
+    "prefix": "nb-flip-card",
+    "body": [
+      "<nb-flip-card>",
+      "\t<nb-card-front>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${1:Front card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-front>",
+      "\t<nb-card-back>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${2:Back card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-back>",
+      "</nb-flip-card>"
+    ]
+  },
+  "NbRevealCardComponent basic": {
+    "prefix": "nb-reveal-card",
+    "body": [
+      "<nb-reveal-card>",
+      "\t<nb-card-front>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${1:Front card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-front>",
+      "\t<nb-card-back>",
+      "\t\t<nb-card>",
+      "\t\t\t<nb-card-body>",
+      "\t\t\t\t${2:Back card text}",
+      "\t\t\t</nb-card-body>",
+      "\t\t</nb-card>",
+      "\t</nb-card-back>",
+      "</nb-reveal-card>"
+    ]
+  },
+  "NbAlertComponent basic": {
+    "prefix": "nb-alert",
+    "body": [
+      "<nb-alert status=\"${1|primary,success,info,warning,danger|}\" closable (close)=\"${2:onClose()}\">",
+      "\t${3:text}",
+      "</nb-alert>"
+    ]
+  },
+  "NbSearchComponent with animation types": {
+    "prefix": "nb-search",
+    "body": [
+      " <nb-search type=\"${1|rotate-layout,modal-move,curtain,column-curtain,modal-drop,modal-half|}\"></nb-search>"
+    ]
+  },
+  "NbTabsetComponent with  two tabs": {
+    "prefix": "nb-tabs",
+    "body": [
+      "<nb-tabset>",
+      "\t<nb-tab tabTitle=\"${1:Tab 1}\">",
+      "\t\t${2: Tab 1 content}",
+      "\t</nb-tab>",
+      "\t<nb-tab tabTitle=\"${3:Tab 2}\">",
+      "\t\t${4: Tab 2 content}",
+      "\t</nb-tab>",
+      "</nb-tabset>"
+    ]
+  },
+  "NbStepperComponent": {
+    "prefix": "nb-stepper",
+    "body": [
+      "<nb-stepper orientation=\"${1|horizontal,vertical|}\">",
+      "\t<nb-step label=\"${2:step one}\">",
+      "\t\t ${3: step 1 content}",
+      "\t<nb-step>",
+      "\t<nb-step label=\"${4:step two}\">",
+      "\t\t ${5:step 2 content}",
+      "\t<nb-step>",
+      "</nb-stepper>"
+    ]
+  },
+  "NbChatComponent": {
+    "prefix": "nb-chat",
+    "body": ["TODO"]
+  },
+  "NbActionsComponent basic with one action": {
+    "prefix": "nb-actions",
+    "body": [
+      "<nb-actions size=\"${1|small,medium,large|}\">",
+      "\t<nb-action icon=\"${2:nb-search}\"></nb-action>",
+      "</nb-actions>"
+    ]
+  },
+  "NbActionsComponent action with icon": {
+    "prefix": "nb-action-icon",
+    "body": ["<nb-action icon=\"${1:nb-search}\"></nb-action>"]
+  },
+  "NbActionsComponent action with badge and icon": {
+    "prefix": "nb-action-badge",
+    "body": [
+      "<nb-action icon=\"${1:nb-search}\"  badgeText=\"${2:count}\" badgeStatus=\"${3|primary,success,info,warning,danger|}\"></nb-action>"
+    ]
+  },
+  "NbUserComponent": {
+    "prefix": "nb-user",
+    "body": [
+      "<nb-user name=\"${1:name}\" size=\"${2|small,medium,large|}\" title=\"${3:title}\"></nb-user>"
+    ]
+  },
+  "NbCheckboxComponent": {
+    "prefix": "nb-checkbox",
+    "body": [
+      "<nb-checkbox status=\"${1|primary,success,info,warning,danger|}\">${1:text}</nb-checkbox>"
+    ]
+  },
+  "NbButtonComponent basic": {
     "prefix": "nb-button",
     "body": ["<button nbButton>${1:text}</button>"]
   },
-  "Nebular button disabled": {
+  "NbButtonComponent disabled": {
     "prefix": "nb-button-disabled",
     "body": ["<button nbButton disabled>${1:text}</button>"]
   },
-  "Nebular button colors": {
+  "NbButtonComponent colors": {
     "prefix": "nb-button-color",
     "body": [
       "<button nbButton status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
     ]
   },
-  "Nebular button size": {
+  "NbButtonComponent size": {
     "prefix": "nb-button-size",
     "body": [
       "<button nbButton size=\"${1|xsmall,small,medium,large|}\">${2:text}</button>"
     ]
   },
-  "Nebular button with outline": {
+  "NbButtonComponent with outline": {
     "prefix": "nb-button-outline",
     "body": [
       "<button nbButton outline status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
     ]
   },
-  "Nebular hero button": {
+  "NbButtonComponent hero button": {
     "prefix": "nb-button-hero",
     "body": [
       "<button nbButton hero status=\"${1|primary,success,info,warning,danger|}\">${2:text}</button>"
     ]
   },
-  "Nebular button shape": {
+  "NbButtonComponent shape": {
     "prefix": "nb-button-shape",
     "body": [
       "<button nbButton shape=\"${1|semi-round,round,rectangle|}\" status=\"${2|primary,success,info,warning,danger|}\">${3:text}</button>"
     ]
   },
-  "Nebular checkbox": {
-    "prefix": "nb-checkbox",
-    "body": ["<nb-checkbox>${1:text}</nb-checkbox>"]
-  },
-  "Nebular Checkbox With Status": {
-    "prefix": "nb-checkbox-status",
-    "body": ["<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>"]
-  },
-  "Nebular Checkbox 2": {
-    "prefix": "nb-checkbox-2",
+  "NbSpinnerDirective spinner directive with status and size": {
+    "prefix": "nb-spinner-dir",
     "body": [
-      "<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>",
-      "<nb-checkbox status=\"${4:danger}\">${3:Danger}</nb-checkbox>"
+      "[nbSpinner]=\"true\" nbSpinnerStatus=\"${1|active,primary,success,info,warning,danger,disabled|}\"  nbSpinnerSize=\"${2|small,medium,large|}\""
     ]
   },
-  "Nebular Checkbox 3": {
-    "prefix": "nb-checkbox-3",
+  "NbProgressBarComponent basic": {
+    "prefix": "nb-progress",
     "body": [
-      "<nb-checkbox status=\"${2:success}\">${1:Success}</nb-checkbox>",
-      "<nb-checkbox status=\"${4:warning}\">${3:Warning}</nb-checkbox>",
-      "<nb-checkbox status=\"${6:danger}\">${5:Danger}</nb-checkbox>"
+      "<nb-progress-bar [value]=\"${1:|10,20,30,40,50,60,70,80,90|}\"></nb-progress-bar>"
     ]
+  },
+  "NbProgressBarComponent with status, size, displayValue": {
+    "prefix": "nb-progress-plus",
+    "body": [
+      "<nb-progress-bar [value]=\"${1:|10,20,30,40,50,60,70,80,90|}\" status=\"${2|primary,success,info,warning,danger|}\" size=\"${3|xs,sm,lg,xlg|}\" [displayValue]=\"true\"></nb-progress-bar>"
+    ]
+  },
+  "NbBadgeComponent basic": {
+    "prefix": "nb-badge",
+    "body": ["<nb-badge text=\"${1:badgeText}\"></nb-badge>"]
+  },
+  "NbPopoverDirective basic": {
+    "prefix": "nb-popover",
+    "body": ["Todo"]
+  },
+  "NbContextMenuDirective basic": {
+    "prefix": "nb-context-menu",
+    "body": ["Todo"]
+  },
+  "NbAccordionComponent accordian": {
+    "prefix": "nb-accordian",
+    "body": ["<nb-accordion>", "", "</nb-accordion>"]
+  },
+  "NbAccordionComponent accordian item": {
+    "prefix": "nb-accordian-item",
+    "body": [
+      "<nb-accordion-item>",
+      "\t<nb-accordion-item-header>",
+      "\t\t${1:title}",
+      "\t</nb-accordion-item-header>",
+      "\t<nb-accordion-item-body>",
+      "\t\t${2:content}",
+      "\t</nb-accordion-item-body>",
+      "</nb-accordion-item>"
+    ]
+  },
+  "NbListComponent basic list": {
+    "prefix": "nb-list",
+    "body": ["<nb-list>", "$1", "</nb-list>"]
+  },
+  "NbListComponent basic list item": {
+    "prefix": "nb-list-item",
+    "body": ["<nb-list-item>", "\t${1:content}", "</nb-list-item>"]
   }
 }
