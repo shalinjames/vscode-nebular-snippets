@@ -2,7 +2,7 @@
   "name": "vscode-nebular-snippets",
   "displayName": "Nebular Code snippets",
   "description": "Code snippents for the Nebular ",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "publisher": "shalinjames",
   "engines": {
     "vscode": "^1.25.0"

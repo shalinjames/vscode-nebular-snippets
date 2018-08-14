@@ -69,6 +69,68 @@
       "</nb-reveal-card>"
     ]
   },
+  "NbAlertComponent basic": {
+    "prefix": "nb-alert",
+    "body": [
+      "<nb-alert status=\"${1|primary,success,info,warning,danger|}\" closable (close)=\"${2:onClose()}\">",
+      "\t${3:text}",
+      "</nb-alert>"
+    ]
+  },
+  "NbSearchComponent with animation types": {
+    "prefix": "nb-search",
+    "body": [
+      " <nb-search type=\"${1|rotate-layout,modal-move,curtain,column-curtain,modal-drop,modal-half|}\"></nb-search>"
+    ]
+  },
+  "NbTabsetComponent with  two tabs": {
+    "prefix": "nb-tabs",
+    "body": [
+      "<nb-tabset>",
+      "\t<nb-tab tabTitle=\"${1:Tab 1}\">",
+      "\t\t${2: Tab 1 content}",
+      "\t</nb-tab>",
+      "\t<nb-tab tabTitle=\"${3:Tab 2}\">",
+      "\t\t${4: Tab 2 content}",
+      "\t</nb-tab>",
+      "</nb-tabset>"
+    ]
+  },
+  "NbStepperComponent": {
+    "prefix": "nb-stepper",
+    "body": [
+      "<nb-stepper orientation=\"${1|horizontal,vertical|}\">",
+      "\t<nb-step label=\"${2:step one}\">",
+      "\t\t ${3: step 1 content}",
+      "\t<nb-step>",
+      "\t<nb-step label=\"${4:step two}\">",
+      "\t\t ${5:step 2 content}",
+      "\t<nb-step>",
+      "</nb-stepper>"
+    ]
+  },
+  "NbChatComponent": {
+    "prefix": "nb-chat",
+    "body": ["TODO"]
+  },
+  "NbActionsComponent basic with one action": {
+    "prefix": "nb-actions",
+    "body": [
+      "<nb-actions size=\"${1|small,medium,large|}\">",
+      "\t<nb-action icon=\"${2:nb-search}\"></nb-action>",
+      "</nb-actions>"
+    ]
+  },
+  "NbActionsComponent action with icon": {
+    "prefix": "nb-action-icon",
+    "body": ["<nb-action icon=\"${1:nb-search}\"></nb-action>"]
+  },
+  "NbActionsComponent action with badge and icon": {
+    "prefix": "nb-action-badge",
+    "body": [
+      "<nb-action icon=\"${1:nb-search}\"  badgeText=\"${2:count}\" badgeStatus=\"${3|primary,success,info,warning,danger|}\"></nb-action>"
+    ]
+  },
   "NbButtonComponent basic": {
     "prefix": "nb-button",
     "body": ["<button nbButton>${1:text}</button>"]
