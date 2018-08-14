@@ -30,3 +30,12 @@ This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.
 | nb-button-outline  | Button with outline                                         |
 | nb-button-hero     | Hero styled button                                          |
 | nb-button-shape    | Button with shape attribute                                 |
+| nb-spinner-dir     | NbSpinnerDirective spinner directive with status and size   |
+| nb-spinner-dir     | NbSpinnerDirective spinner directive with status and size   |
+| nb-progress        | NbProgressBarComponent basic                                |
+| nb-progress-plus   | NbProgressBarComponent with status, size, displayValue      |
+| nb-badge           | NbBadgeComponent basic                                      |
+| nb-accordian       | NbAccordionComponentaccordian                               |
+| nb-accordian-item  | NbAccordionComponent accordian item                         |
+| nb-list            | NbListComponent basic list                                  |
+| nb-list-item       | NbListComponent basic list item                             |

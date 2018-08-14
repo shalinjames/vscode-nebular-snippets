@@ -140,7 +140,7 @@
   "NbCheckboxComponent": {
     "prefix": "nb-checkbox",
     "body": [
-      "<nb-checkbox status=\"${1|primary,success,info,warning,danger|}\">Success</nb-checkbox>"
+      "<nb-checkbox status=\"${1|primary,success,info,warning,danger|}\">${1:text}</nb-checkbox>"
     ]
   },
   "NbButtonComponent basic": {
@@ -180,5 +180,60 @@
     "body": [
       "<button nbButton shape=\"${1|semi-round,round,rectangle|}\" status=\"${2|primary,success,info,warning,danger|}\">${3:text}</button>"
     ]
+  },
+  "NbSpinnerDirective spinner directive with status and size": {
+    "prefix": "nb-spinner-dir",
+    "body": [
+      "[nbSpinner]=\"true\" nbSpinnerStatus=\"${1|active,primary,success,info,warning,danger,disabled|}\"  nbSpinnerSize=\"${2|small,medium,large|}\""
+    ]
+  },
+  "NbProgressBarComponent basic": {
+    "prefix": "nb-progress",
+    "body": [
+      "<nb-progress-bar [value]=\"${1:|10,20,30,40,50,60,70,80,90|}\"></nb-progress-bar>"
+    ]
+  },
+  "NbProgressBarComponent with status, size, displayValue": {
+    "prefix": "nb-progress-plus",
+    "body": [
+      "<nb-progress-bar [value]=\"${1:|10,20,30,40,50,60,70,80,90|}\" status=\"${2|primary,success,info,warning,danger|}\" size=\"${3|xs,sm,lg,xlg|}\" [displayValue]=\"true\"></nb-progress-bar>"
+    ]
+  },
+  "NbBadgeComponent basic": {
+    "prefix": "nb-badge",
+    "body": ["<nb-badge text=\"${1:badgeText}\"></nb-badge>"]
+  },
+  "NbPopoverDirective basic": {
+    "prefix": "nb-popover",
+    "body": ["Todo"]
+  },
+  "NbContextMenuDirective basic": {
+    "prefix": "nb-context-menu",
+    "body": ["Todo"]
+  },
+  "NbAccordionComponent accordian": {
+    "prefix": "nb-accordian",
+    "body": ["<nb-accordion>", "", "</nb-accordion>"]
+  },
+  "NbAccordionComponent accordian item": {
+    "prefix": "nb-accordian-item",
+    "body": [
+      "<nb-accordion-item>",
+      "\t<nb-accordion-item-header>",
+      "\t\t${1:title}",
+      "\t</nb-accordion-item-header>",
+      "\t<nb-accordion-item-body>",
+      "\t\t${2:content}",
+      "\t</nb-accordion-item-body>",
+      "</nb-accordion-item>"
+    ]
+  },
+  "NbListComponent basic list": {
+    "prefix": "nb-list",
+    "body": ["<nb-list>", "$1", "</nb-list>"]
+  },
+  "NbListComponent basic list item": {
+    "prefix": "nb-list-item",
+    "body": ["<nb-list-item>", "\t${1:content}", "</nb-list-item>"]
   }
 }

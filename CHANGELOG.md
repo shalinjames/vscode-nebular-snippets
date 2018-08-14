@@ -1,5 +1,18 @@
 ## Change Log for Nebular Snippets
 
+## [1.0.0] 2017-08-15
+
+### Added snippets for all components
+
+- `nb-spinner-dir` NbSpinnerDirective spinner directive with status and size
+- `nb-progress` NbProgressBarComponent basic
+- `nb-progress`-plus NbProgressBarComponent with status, size, displayValue
+- `nb-badge` NbBadgeComponent basic
+- `nb-accordian` NbAccordionComponent accordian
+- `nb-accordian`-item NbAccordionComponent accordian item
+- `nb-list` NbListComponent basic list
+- `nb-list-item` NbListComponent basic list item
+
 ## [0.0.5] 2017-08-15
 
 ### Added snippets for following components
