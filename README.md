@@ -4,7 +4,7 @@ This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.
 
 ![Extension](https://raw.githubusercontent.com/shalinjames/vscode-nebular-snippets/master/images/nebular_snippets_html.gif)
 
-## HTML Snippets 
+## HTML Snippets
 
 | Snippet            | Description                                                 |
 | ------------------ | ----------------------------------------------------------- |
@@ -21,6 +21,8 @@ This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.
 | ng-actions         | NbActionsComponent basic with one action                    |
 | ng-action-icon     | NbActionsComponent action with icon                         |
 | ng-action-badge    | NbActionsComponent action with badge and icon               |
+| nb-user            | NbUserComponent with size options                           |
+| nb-checkbox        | NbCheckboxComponent with status options                     |
 | nb-button          | Plain button                                                |
 | nb-button-disabled | Button with disabled attribute                              |
 | nb-button-color    | Button with color attribute                                 |

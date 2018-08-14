@@ -131,6 +131,18 @@
       "<nb-action icon=\"${1:nb-search}\"  badgeText=\"${2:count}\" badgeStatus=\"${3|primary,success,info,warning,danger|}\"></nb-action>"
     ]
   },
+  "NbUserComponent": {
+    "prefix": "nb-user",
+    "body": [
+      "<nb-user name=\"${1:name}\" size=\"${2|small,medium,large|}\" title=\"${3:title}\"></nb-user>"
+    ]
+  },
+  "NbCheckboxComponent": {
+    "prefix": "nb-checkbox",
+    "body": [
+      "<nb-checkbox status=\"${1|primary,success,info,warning,danger|}\">Success</nb-checkbox>"
+    ]
+  },
   "NbButtonComponent basic": {
     "prefix": "nb-button",
     "body": ["<button nbButton>${1:text}</button>"]

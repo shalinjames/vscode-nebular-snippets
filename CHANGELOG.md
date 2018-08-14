@@ -1,5 +1,12 @@
 ## Change Log for Nebular Snippets
 
+## [0.0.5] 2017-08-15
+
+### Added snippets for following components
+
+- nb-user for NbUserComponent with size options
+- nb-checkbox for NbCheckboxComponent with status options
+
 ## [0.0.4] 2017-08-14
 
 ### Added snippets for following components
