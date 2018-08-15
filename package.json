@@ -2,7 +2,7 @@
   "name": "vscode-nebular-snippets",
   "displayName": "Nebular Code snippets",
   "description": "Code snippents for the Nebular ",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "publisher": "shalinjames",
   "engines": {
     "vscode": "^1.25.0"
@@ -44,7 +44,7 @@
     "@types/node": "^7.0.43",
     "@types/mocha": "^2.2.42"
   },
-  "icon": "images/brackets.png",
+  "icon": "images/logo.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/shalinjames/vscode-nebular-snippets.git"

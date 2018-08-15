@@ -1,8 +1,16 @@
+
+[![Version](https://vsmarketplacebadge.apphb.com/version/shalinjames.vscode-nebular-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=shalinjames.vscode-nebular-snippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/shalinjames.vscode-nebular-snippets.svg
+)](https://marketplace.visualstudio.com/items?itemName=shalinjames.vscode-nebular-snippets)
+
+
 # Nebular Snippets for VS Code
 
 This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.github.io/nebular/) Components.
 
 ![Extension](https://raw.githubusercontent.com/shalinjames/vscode-nebular-snippets/master/images/nebular_snippets_html.gif)
+
+[VS Code Nebular Code Snippets](https://marketplace.visualstudio.com/items?itemName=shalinjames.vscode-nebular-snippets) link for the extension
 
 ## HTML Snippets
 
@@ -39,3 +47,4 @@ This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.
 | nb-accordian-item  | NbAccordionComponent accordian item                         |
 | nb-list            | NbListComponent basic list                                  |
 | nb-list-item       | NbListComponent basic list item                             |
+
