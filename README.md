@@ -43,8 +43,8 @@ This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.
 | nb-progress        | NbProgressBarComponent basic                                |
 | nb-progress-plus   | NbProgressBarComponent with status, size, displayValue      |
 | nb-badge           | NbBadgeComponent basic                                      |
-| nb-accordian       | NbAccordionComponentaccordian                               |
-| nb-accordian-item  | NbAccordionComponent accordian item                         |
+| nb-accordion       | NbAccordionComponentaccordion                               |
+| nb-accordion-item  | NbAccordionComponent accordion item                         |
 | nb-list            | NbListComponent basic list                                  |
 | nb-list-item       | NbListComponent basic list item                             |
 

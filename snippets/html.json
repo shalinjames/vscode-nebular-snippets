@@ -211,12 +211,12 @@
     "prefix": "nb-context-menu",
     "body": ["Todo"]
   },
-  "NbAccordionComponent accordian": {
-    "prefix": "nb-accordian",
+  "NbAccordionComponent accordion": {
+    "prefix": "nb-accordion",
     "body": ["<nb-accordion>", "", "</nb-accordion>"]
   },
-  "NbAccordionComponent accordian item": {
-    "prefix": "nb-accordian-item",
+  "NbAccordionComponent accordion item": {
+    "prefix": "nb-accordion-item",
     "body": [
       "<nb-accordion-item>",
       "\t<nb-accordion-item-header>",
