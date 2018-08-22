@@ -1,5 +1,11 @@
 ## Change Log for Nebular Snippets
 
+## [1.0.1] 2017-08-22
+
+### Fixes
+
+- Typo correction from `nb-accordian` -> `nb-accordion` in
+
 ## [1.0.0] 2017-08-15
 
 ### Added snippets for all components
@@ -9,7 +15,7 @@
 - `nb-progress`-plus NbProgressBarComponent with status, size, displayValue
 - `nb-badge` NbBadgeComponent basic
 - `nb-accordian` NbAccordionComponent accordian
-- `nb-accordian`-item NbAccordionComponent accordian item
+- `nb-accordian-item` NbAccordionComponent accordian item
 - `nb-list` NbListComponent basic list
 - `nb-list-item` NbListComponent basic list item
 
