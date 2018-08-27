@@ -25,10 +25,10 @@ This extension for Visual Studio Code adds snippets for [Nebular](https://akveo.
 | nb-alert           | NbAlertComponent basic with status and closeable            |
 | nb-search          | NbSearchComponent with animation types as options to select |
 | nb-tabs            | NbTabsetComponent with two tabs                             |
-| ng-steper          | NbStepperComponent with two steps                           |
-| ng-actions         | NbActionsComponent basic with one action                    |
-| ng-action-icon     | NbActionsComponent action with icon                         |
-| ng-action-badge    | NbActionsComponent action with badge and icon               |
+| nb-stepper         | NbStepperComponent with two steps                           |
+| nb-actions         | NbActionsComponent basic with one action                    |
+| nb-action-icon     | NbActionsComponent action with icon                         |
+| nb-action-badge    | NbActionsComponent action with badge and icon               |
 | nb-user            | NbUserComponent with size options                           |
 | nb-checkbox        | NbCheckboxComponent with status options                     |
 | nb-button          | Plain button                                                |
